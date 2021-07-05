@@ -14,7 +14,7 @@ public class ReadFile {
     public static List<BusTrip> getBusTrips(String path) {
         List<BusTrip> busTrips = new ArrayList<>();
         try {
-            File file = new File(path + "\\input.txt");
+            File file = new File(path + "input.txt");
             Scanner reader = new Scanner(file);
             while (reader.hasNextLine()) {
                 String[] data = null;
